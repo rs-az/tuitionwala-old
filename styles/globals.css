@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nav ul li {
+	@apply px-5 py-2;
+	@layer hover:bg-blue-100;
+}*/
+
+.active {
+	@apply bg-blue-100 rounded text-gray-900;
+}
